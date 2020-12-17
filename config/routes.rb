@@ -1,3 +1,9 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+  # no longer or nav routes, api routes, 
+  # how we are reaching our controllers 
+  namespace :api do
+    resources :todos
+    # resources :comments
+  end
 end
