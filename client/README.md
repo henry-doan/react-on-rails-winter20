@@ -1,9 +1,11 @@
           index
             |
-           app (HOC)
+           app (HOC) up 
             /\
-    todoForm  list
+  add todoForm  list up
                 \
-                todo
+                todo up
+                  \ 
+                  todoform up
                   <!-- \
                   cform commentslist -->
